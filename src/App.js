@@ -30,7 +30,7 @@ class App extends React.Component {
           console.log(res.data)
           this.setState({
             lat: res.data.lat,
-            log: res.data.log,
+            lng: res.data.log,
           });
         })
     }, 30000);
