@@ -39,6 +39,8 @@ class App extends React.Component {
   
 
   render() {
+  	console.log(this.state.lat);
+    console.log(this.state.lng);
     return (
           <Map className="map" center={[this.state.lat, this.state.lng]} zoom={this.state.zoom}
           >
