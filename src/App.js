@@ -33,7 +33,7 @@ class App extends React.Component {
             lng: res.data.log,
           });
         })
-    }, 30000);
+    }, 9000);
   }
 
   
